@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Right Foot_SO_x",
+    "type": "number",
+    "min": -30.1770038241105,
+    "max": 28.6472164323783
+  },
+  {
+    "name": "Right Foot_SO_y",
+    "type": "number",
+    "min": -26.107873765645,
+    "max": 60.5093340952522
+  },
+  {
+    "name": "Right Foot_SO_z",
+    "type": "number",
+    "min": -179.99970548246,
+    "max": 179.999642309688
+  },
+  {
+    "name": "Right Foot_SP_x",
+    "type": "number",
+    "min": -0.371124565169595,
+    "max": 0.378145452875918
+  },
+  {
+    "name": "Right Foot_SP_y",
+    "type": "number",
+    "min": -0.482530631442761,
+    "max": 0.551557534145545
+  },
+  {
+    "name": "Right Foot_SP_z",
+    "type": "number",
+    "min": 0.232816423807321,
+    "max": 0.828785932435949
+  },
+  {
+    "name": "Right Foot_SV_x",
+    "type": "number",
+    "min": -1.68831697665387,
+    "max": 1.63692250065352
+  },
+  {
+    "name": "Right Foot_SV_y",
+    "type": "number",
+    "min": -1.35030340442009,
+    "max": 1.823164689792
+  },
+  {
+    "name": "Right Foot_SV_z",
+    "type": "number",
+    "min": -1.83239832797749,
+    "max": 1.83594658073341
+  },
+  {
+    "name": "Right Foot_SA_x",
+    "type": "number",
+    "min": -46.8704962872637,
+    "max": 62.4417661107532
+  },
+  {
+    "name": "Right Foot_SA_y",
+    "type": "number",
+    "min": -32.799440135305,
+    "max": 36.3168939858017
+  },
+  {
+    "name": "Right Foot_SA_z",
+    "type": "number",
+    "min": -19.4016549724875,
+    "max": 25.2453722560052
+  },
+  {
+    "name": "Right Foot_SAV_x",
+    "type": "number",
+    "min": -4.54223353046928,
+    "max": 4.55551869731552
+  },
+  {
+    "name": "Right Foot_SAV_y",
+    "type": "number",
+    "min": -4.35613642319238,
+    "max": 5.65690876939033
+  },
+  {
+    "name": "Right Foot_SAV_z",
+    "type": "number",
+    "min": -8.81927163969218,
+    "max": 9.32891571882567
+  },
+  {
+    "name": "Right Foot_SAA_x",
+    "type": "number",
+    "min": -153.404777451944,
+    "max": 205.830644700675
+  },
+  {
+    "name": "Right Foot_SAA_y",
+    "type": "number",
+    "min": -172.632975868039,
+    "max": 168.11643361171
+  },
+  {
+    "name": "Right Foot_SAA_z",
+    "type": "number",
+    "min": -478.36720276638,
+    "max": 502.249218775333
+  }
+]

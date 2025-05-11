@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Left Toe_SO_x",
+    "type": "number",
+    "min": -41.1818955036849,
+    "max": 38.9850491868375
+  },
+  {
+    "name": "Left Toe_SO_y",
+    "type": "number",
+    "min": -32.9126914208776,
+    "max": 55.6123168565284
+  },
+  {
+    "name": "Left Toe_SO_z",
+    "type": "number",
+    "min": -179.999399629352,
+    "max": 179.999117992888
+  },
+  {
+    "name": "Left Toe_SP_x",
+    "type": "number",
+    "min": -0.537055299326322,
+    "max": 0.493728411842636
+  },
+  {
+    "name": "Left Toe_SP_y",
+    "type": "number",
+    "min": -0.521579693408692,
+    "max": 0.682196274154477
+  },
+  {
+    "name": "Left Toe_SP_z",
+    "type": "number",
+    "min": 0.135882479152428,
+    "max": 0.688708079205639
+  },
+  {
+    "name": "Left Toe_SV_x",
+    "type": "number",
+    "min": -1.83745785310931,
+    "max": 2.02285936553305
+  },
+  {
+    "name": "Left Toe_SV_y",
+    "type": "number",
+    "min": -1.74205944162864,
+    "max": 1.65391638071182
+  },
+  {
+    "name": "Left Toe_SV_z",
+    "type": "number",
+    "min": -1.47463661713899,
+    "max": 1.8015120368823
+  },
+  {
+    "name": "Left Toe_SA_x",
+    "type": "number",
+    "min": -34.2849060155041,
+    "max": 47.313908688475
+  },
+  {
+    "name": "Left Toe_SA_y",
+    "type": "number",
+    "min": -39.1434137955379,
+    "max": 46.1521851417722
+  },
+  {
+    "name": "Left Toe_SA_z",
+    "type": "number",
+    "min": -34.5192249729024,
+    "max": 53.8137383654861
+  },
+  {
+    "name": "Left Toe_SAV_x",
+    "type": "number",
+    "min": -4.4837791207254,
+    "max": 5.68067424320077
+  },
+  {
+    "name": "Left Toe_SAV_y",
+    "type": "number",
+    "min": -5.84254332028698,
+    "max": 5.81546422129883
+  },
+  {
+    "name": "Left Toe_SAV_z",
+    "type": "number",
+    "min": -8.24610313541155,
+    "max": 7.67759664991892
+  },
+  {
+    "name": "Left Toe_SAA_x",
+    "type": "number",
+    "min": -177.797750227231,
+    "max": 197.895796137566
+  },
+  {
+    "name": "Left Toe_SAA_y",
+    "type": "number",
+    "min": -275.558377193621,
+    "max": 233.511765061141
+  },
+  {
+    "name": "Left Toe_SAA_z",
+    "type": "number",
+    "min": -380.913281750806,
+    "max": 311.353281652973
+  }
+]

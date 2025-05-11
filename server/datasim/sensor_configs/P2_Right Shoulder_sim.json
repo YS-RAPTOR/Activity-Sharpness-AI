@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Right Shoulder_SO_x",
+    "type": "number",
+    "min": -63.4907800578923,
+    "max": 92.2953543393859
+  },
+  {
+    "name": "Right Shoulder_SO_y",
+    "type": "number",
+    "min": -39.9096674301024,
+    "max": 73.5043513056102
+  },
+  {
+    "name": "Right Shoulder_SO_z",
+    "type": "number",
+    "min": -179.997998868219,
+    "max": 179.999902284191
+  },
+  {
+    "name": "Right Shoulder_SP_x",
+    "type": "number",
+    "min": -0.332368504073452,
+    "max": 0.355280565066261
+  },
+  {
+    "name": "Right Shoulder_SP_y",
+    "type": "number",
+    "min": -0.319711976868282,
+    "max": 0.319145678462547
+  },
+  {
+    "name": "Right Shoulder_SP_z",
+    "type": "number",
+    "min": 1.26589018328855,
+    "max": 1.66736095860756
+  },
+  {
+    "name": "Right Shoulder_SV_x",
+    "type": "number",
+    "min": -0.668359233172702,
+    "max": 0.95078641341201
+  },
+  {
+    "name": "Right Shoulder_SV_y",
+    "type": "number",
+    "min": -0.830518840338225,
+    "max": 0.938966028062178
+  },
+  {
+    "name": "Right Shoulder_SV_z",
+    "type": "number",
+    "min": -0.954673167368513,
+    "max": 0.844234674399897
+  },
+  {
+    "name": "Right Shoulder_SA_x",
+    "type": "number",
+    "min": -19.5332606943674,
+    "max": 16.408001847024
+  },
+  {
+    "name": "Right Shoulder_SA_y",
+    "type": "number",
+    "min": -15.1546110303234,
+    "max": 15.9081820369188
+  },
+  {
+    "name": "Right Shoulder_SA_z",
+    "type": "number",
+    "min": -15.949904751284,
+    "max": 12.3158183252391
+  },
+  {
+    "name": "Right Shoulder_SAV_x",
+    "type": "number",
+    "min": -2.82844379631029,
+    "max": 2.71125831878274
+  },
+  {
+    "name": "Right Shoulder_SAV_y",
+    "type": "number",
+    "min": -2.12720693391272,
+    "max": 4.22001478813191
+  },
+  {
+    "name": "Right Shoulder_SAV_z",
+    "type": "number",
+    "min": -3.53854053730783,
+    "max": 3.10626206054036
+  },
+  {
+    "name": "Right Shoulder_SAA_x",
+    "type": "number",
+    "min": -87.0411314296551,
+    "max": 85.8608031412305
+  },
+  {
+    "name": "Right Shoulder_SAA_y",
+    "type": "number",
+    "min": -115.070195899115,
+    "max": 88.0698734897548
+  },
+  {
+    "name": "Right Shoulder_SAA_z",
+    "type": "number",
+    "min": -128.67029050106,
+    "max": 120.747966322883
+  }
+]

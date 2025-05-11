@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Right Upper Arm_SO_x",
+    "type": "number",
+    "min": -179.560229088114,
+    "max": 179.389447449903
+  },
+  {
+    "name": "Right Upper Arm_SO_y",
+    "type": "number",
+    "min": -89.6040906241444,
+    "max": 55.4727276524156
+  },
+  {
+    "name": "Right Upper Arm_SO_z",
+    "type": "number",
+    "min": -179.999425851916,
+    "max": 179.998503718101
+  },
+  {
+    "name": "Right Upper Arm_SP_x",
+    "type": "number",
+    "min": -0.369749630101257,
+    "max": 0.450148291878246
+  },
+  {
+    "name": "Right Upper Arm_SP_y",
+    "type": "number",
+    "min": -0.413877506409015,
+    "max": 0.361409083333292
+  },
+  {
+    "name": "Right Upper Arm_SP_z",
+    "type": "number",
+    "min": 1.16722988810909,
+    "max": 1.74473813453659
+  },
+  {
+    "name": "Right Upper Arm_SV_x",
+    "type": "number",
+    "min": -0.810395373852139,
+    "max": 1.02534159413417
+  },
+  {
+    "name": "Right Upper Arm_SV_y",
+    "type": "number",
+    "min": -0.924260167642357,
+    "max": 0.882896711483874
+  },
+  {
+    "name": "Right Upper Arm_SV_z",
+    "type": "number",
+    "min": -1.06138418562377,
+    "max": 0.912258518841536
+  },
+  {
+    "name": "Right Upper Arm_SA_x",
+    "type": "number",
+    "min": -41.0227120666264,
+    "max": 26.6625086069475
+  },
+  {
+    "name": "Right Upper Arm_SA_y",
+    "type": "number",
+    "min": -29.432048567077,
+    "max": 31.1185688786576
+  },
+  {
+    "name": "Right Upper Arm_SA_z",
+    "type": "number",
+    "min": -26.3188952628298,
+    "max": 27.189422620146
+  },
+  {
+    "name": "Right Upper Arm_SAV_x",
+    "type": "number",
+    "min": -8.09957131367659,
+    "max": 5.61313827005803
+  },
+  {
+    "name": "Right Upper Arm_SAV_y",
+    "type": "number",
+    "min": -5.4769623238335,
+    "max": 9.24570303715777
+  },
+  {
+    "name": "Right Upper Arm_SAV_z",
+    "type": "number",
+    "min": -6.4312648463115,
+    "max": 7.25781281596153
+  },
+  {
+    "name": "Right Upper Arm_SAA_x",
+    "type": "number",
+    "min": -380.90445633127,
+    "max": 342.617055644823
+  },
+  {
+    "name": "Right Upper Arm_SAA_y",
+    "type": "number",
+    "min": -363.658444385636,
+    "max": 281.885601162556
+  },
+  {
+    "name": "Right Upper Arm_SAA_z",
+    "type": "number",
+    "min": -274.674471482128,
+    "max": 286.909212238308
+  }
+]

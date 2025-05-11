@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Left Upper Leg_SO_x",
+    "type": "number",
+    "min": -11.8699000548687,
+    "max": 77.6508529923737
+  },
+  {
+    "name": "Left Upper Leg_SO_y",
+    "type": "number",
+    "min": -50.0423567369173,
+    "max": 27.0462477855929
+  },
+  {
+    "name": "Left Upper Leg_SO_z",
+    "type": "number",
+    "min": -179.999661445063,
+    "max": 179.999635126709
+  },
+  {
+    "name": "Left Upper Leg_SP_x",
+    "type": "number",
+    "min": -0.0927740645577284,
+    "max": 0.0927759758904756
+  },
+  {
+    "name": "Left Upper Leg_SP_y",
+    "type": "number",
+    "min": -0.0927797011687375,
+    "max": 0.0927830014004267
+  },
+  {
+    "name": "Left Upper Leg_SP_z",
+    "type": "number",
+    "min": 1.20691224874395,
+    "max": 1.28969091279691
+  },
+  {
+    "name": "Left Upper Leg_SV_x",
+    "type": "number",
+    "min": -0.59233488912897,
+    "max": 0.822302642939983
+  },
+  {
+    "name": "Left Upper Leg_SV_y",
+    "type": "number",
+    "min": -0.995185776359767,
+    "max": 1.23514032585818
+  },
+  {
+    "name": "Left Upper Leg_SV_z",
+    "type": "number",
+    "min": -0.350542979945387,
+    "max": 0.679770400397241
+  },
+  {
+    "name": "Left Upper Leg_SA_x",
+    "type": "number",
+    "min": -97.8086684571049,
+    "max": 58.8814327015038
+  },
+  {
+    "name": "Left Upper Leg_SA_y",
+    "type": "number",
+    "min": -108.480924895661,
+    "max": 85.9223927977896
+  },
+  {
+    "name": "Left Upper Leg_SA_z",
+    "type": "number",
+    "min": -62.6791640296665,
+    "max": 40.1480323695662
+  },
+  {
+    "name": "Left Upper Leg_SAV_x",
+    "type": "number",
+    "min": -3.52353077801979,
+    "max": 4.54433914336383
+  },
+  {
+    "name": "Left Upper Leg_SAV_y",
+    "type": "number",
+    "min": -4.66328554744436,
+    "max": 4.34470187029786
+  },
+  {
+    "name": "Left Upper Leg_SAV_z",
+    "type": "number",
+    "min": -6.68037334055057,
+    "max": 5.98408590446287
+  },
+  {
+    "name": "Left Upper Leg_SAA_x",
+    "type": "number",
+    "min": -207.133464035551,
+    "max": 446.780820742889
+  },
+  {
+    "name": "Left Upper Leg_SAA_y",
+    "type": "number",
+    "min": -481.630194332443,
+    "max": 498.014794866558
+  },
+  {
+    "name": "Left Upper Leg_SAA_z",
+    "type": "number",
+    "min": -684.905780032472,
+    "max": 666.757184236917
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Right Forearm_SO_x",
+    "type": "number",
+    "min": -179.999946156384,
+    "max": 179.979748604337
+  },
+  {
+    "name": "Right Forearm_SO_y",
+    "type": "number",
+    "min": -89.8287632211191,
+    "max": 60.03188630639
+  },
+  {
+    "name": "Right Forearm_SO_z",
+    "type": "number",
+    "min": -179.995539049679,
+    "max": 179.999694827856
+  },
+  {
+    "name": "Right Forearm_SP_x",
+    "type": "number",
+    "min": -0.582951289752177,
+    "max": 0.592718880183294
+  },
+  {
+    "name": "Right Forearm_SP_y",
+    "type": "number",
+    "min": -0.514437902014786,
+    "max": 0.510264337300885
+  },
+  {
+    "name": "Right Forearm_SP_z",
+    "type": "number",
+    "min": 0.900323038923261,
+    "max": 1.86825870703342
+  },
+  {
+    "name": "Right Forearm_SV_x",
+    "type": "number",
+    "min": -2.01889953127902,
+    "max": 1.85525394507939
+  },
+  {
+    "name": "Right Forearm_SV_y",
+    "type": "number",
+    "min": -2.06049170127336,
+    "max": 3.91960411047991
+  },
+  {
+    "name": "Right Forearm_SV_z",
+    "type": "number",
+    "min": -2.12425924218955,
+    "max": 2.01449463712223
+  },
+  {
+    "name": "Right Forearm_SA_x",
+    "type": "number",
+    "min": -192.289877011071,
+    "max": 156.76936920883
+  },
+  {
+    "name": "Right Forearm_SA_y",
+    "type": "number",
+    "min": -110.912976564962,
+    "max": 99.2606451543581
+  },
+  {
+    "name": "Right Forearm_SA_z",
+    "type": "number",
+    "min": -116.847667040628,
+    "max": 82.2767731234935
+  },
+  {
+    "name": "Right Forearm_SAV_x",
+    "type": "number",
+    "min": -25.0626737776691,
+    "max": 16.096113244185
+  },
+  {
+    "name": "Right Forearm_SAV_y",
+    "type": "number",
+    "min": -19.7050630756641,
+    "max": 19.2918707198775
+  },
+  {
+    "name": "Right Forearm_SAV_z",
+    "type": "number",
+    "min": -17.0784943974605,
+    "max": 18.7381920810692
+  },
+  {
+    "name": "Right Forearm_SAA_x",
+    "type": "number",
+    "min": -844.942833461064,
+    "max": 864.586394355141
+  },
+  {
+    "name": "Right Forearm_SAA_y",
+    "type": "number",
+    "min": -1256.10468239248,
+    "max": 1036.39962310893
+  },
+  {
+    "name": "Right Forearm_SAA_z",
+    "type": "number",
+    "min": -1392.32351037031,
+    "max": 932.751580180834
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Right Hand_SO_x",
+    "type": "number",
+    "min": -179.997020416353,
+    "max": 179.999592486526
+  },
+  {
+    "name": "Right Hand_SO_y",
+    "type": "number",
+    "min": -89.9184132908035,
+    "max": 66.9218661665403
+  },
+  {
+    "name": "Right Hand_SO_z",
+    "type": "number",
+    "min": -179.999320421503,
+    "max": 179.999551880065
+  },
+  {
+    "name": "Right Hand_SP_x",
+    "type": "number",
+    "min": -0.757470888991142,
+    "max": 0.584053881695014
+  },
+  {
+    "name": "Right Hand_SP_y",
+    "type": "number",
+    "min": -0.653209286048081,
+    "max": 0.693070538794824
+  },
+  {
+    "name": "Right Hand_SP_z",
+    "type": "number",
+    "min": 1.03840717645847,
+    "max": 2.18537032451095
+  },
+  {
+    "name": "Right Hand_SV_x",
+    "type": "number",
+    "min": -3.68427637279732,
+    "max": 2.39718886353878
+  },
+  {
+    "name": "Right Hand_SV_y",
+    "type": "number",
+    "min": -2.37795593858078,
+    "max": 2.31084525417324
+  },
+  {
+    "name": "Right Hand_SV_z",
+    "type": "number",
+    "min": -3.90839070627708,
+    "max": 2.73355222337846
+  },
+  {
+    "name": "Right Hand_SA_x",
+    "type": "number",
+    "min": -115.703755054567,
+    "max": 103.927063277277
+  },
+  {
+    "name": "Right Hand_SA_y",
+    "type": "number",
+    "min": -94.879738721711,
+    "max": 132.860520751595
+  },
+  {
+    "name": "Right Hand_SA_z",
+    "type": "number",
+    "min": -124.098240153946,
+    "max": 133.975339178591
+  },
+  {
+    "name": "Right Hand_SAV_x",
+    "type": "number",
+    "min": -25.7623799696977,
+    "max": 26.837997268306
+  },
+  {
+    "name": "Right Hand_SAV_y",
+    "type": "number",
+    "min": -32.6459411280901,
+    "max": 29.3199045918776
+  },
+  {
+    "name": "Right Hand_SAV_z",
+    "type": "number",
+    "min": -29.2708563453108,
+    "max": 30.6273693053183
+  },
+  {
+    "name": "Right Hand_SAA_x",
+    "type": "number",
+    "min": -1650.6567265638,
+    "max": 1551.09342966827
+  },
+  {
+    "name": "Right Hand_SAA_y",
+    "type": "number",
+    "min": -1575.08100799735,
+    "max": 1341.56734610764
+  },
+  {
+    "name": "Right Hand_SAA_z",
+    "type": "number",
+    "min": -1628.19882947384,
+    "max": 1609.53018325711
+  }
+]
