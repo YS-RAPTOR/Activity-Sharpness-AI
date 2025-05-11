@@ -1,0 +1,1819 @@
+{
+  "id" : "682042d1d4cc460007875468",
+  "modified" : 1746950030,
+  "name" : "P1 Head",
+  "dataDefinition" : {
+    "id" : "6820443b8e7dbf0007e573a2",
+    "modified" : 1746947641,
+    "name" : "P1 Head",
+    "dataset" : {
+      "id" : "682044298e7dbf0007e573a1",
+      "modified" : 1746945065,
+      "name" : "P1_Head_sim.json",
+      "type" : "json",
+      "url" : "http://minio:9000",
+      "bucket" : "datasets",
+      "objectKey" : "P1_Head_sim.json",
+      "accessKey" : "58CZ5TR5PZV5RX14Q6I8",
+      "secretKey" : "JdY2rppyyCK1cEJ+tH8Cy7WhPAqkp1to2y/e2J4R"
+    },
+    "schema" : {
+      "metadata" : {
+        "type" : "json"
+      },
+      "type" : "array",
+      "items" : [ {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "1",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "2",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "3",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "4",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "5",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "6",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "7",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "8",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "9",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "10",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "11",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "12",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "13",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "14",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "15",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "16",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "17",
+          "description" : ""
+        }
+      }, {
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            }
+          }
+        },
+        "type" : "object",
+        "metadata" : {
+          "position" : "18",
+          "description" : ""
+        }
+      } ],
+      "schemaKey" : "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "timer" : {
+    "type" : "interval",
+    "metric" : "seconds",
+    "value" : 1
+  },
+  "ticksNumber" : 0,
+  "isReplayLooped" : true,
+  "devices" : [ ],
+  "generator" : {
+    "type" : "schema_based",
+    "schema" : {
+      "metadata" : {
+        "type" : "json"
+      },
+      "type" : "array",
+      "items" : [ {
+        "type" : "object",
+        "metadata" : {
+          "position" : "1",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "2",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "3",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "4",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "5",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "6",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "7",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "8",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "9",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "10",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "11",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "12",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "13",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "14",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "15",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "16",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "17",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      }, {
+        "type" : "object",
+        "metadata" : {
+          "position" : "18",
+          "description" : ""
+        },
+        "properties" : {
+          "min" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "min",
+              "name" : "min_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "max" : {
+            "type" : "number",
+            "metadata" : {
+              "type" : "double",
+              "position" : "max",
+              "name" : "max_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "custom_function",
+              "function" : "\n/**\n * Generate a random float between ruleState.min and ruleState.max\n */\nfunction custom(ruleState, sessionState, deviceName, entryValue, datasetRow) {\n  var min = (typeof ruleState.min === \"number\") ? ruleState.min : 0;\n  var max = (typeof ruleState.max === \"number\") ? ruleState.max : 100;\n\n  if (min > max) {\n    var temp = min;\n    min = max;\n    max = temp;\n  }\n\n  var randomValue = Math.random() * (max - min) + min;\n  return parseFloat(randomValue.toFixed(3));\n}\n"
+            }
+          },
+          "name" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "name",
+              "name" : "name_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          },
+          "type" : {
+            "type" : "string",
+            "metadata" : {
+              "position" : "type",
+              "name" : "type_property",
+              "description" : ""
+            },
+            "rule" : {
+              "type" : "as_is"
+            }
+          }
+        }
+      } ],
+      "schemaKey" : "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "targetSystem" : {
+    "id" : "5a4223da85b4b900050e7474",
+    "modified" : 1746933411,
+    "name" : "Dummy",
+    "type" : "dummy"
+  },
+  "replayLooped" : true
+}
