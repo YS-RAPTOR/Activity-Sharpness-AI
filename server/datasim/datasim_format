@@ -1,0 +1,37 @@
+import os
+import json
+
+# This script flattens the JSON schema for each body part and saves it in a new directory.
+input_dir = '/Users/adamhorvath/Downloads/worker_bodyparts'
+output_dir = '/Users/adamhorvath/Downloads/sim_schemas_flat'
+os.makedirs(output_dir, exist_ok=True)
+
+for file in os.listdir(input_dir):
+    if not file.endswith('.json'):
+        continue
+
+    file_path = os.path.join(input_dir, file)
+
+    with open(file_path) as f:
+        body_data = json.load(f)
+
+    worker = body_data['worker']
+    body_part = body_data['body_part']
+    segments = body_data.get('segments', {})
+
+    flat_schema = []
+
+    for segment_key, seg_info in segments.items():
+        for axis, bounds in seg_info.get('components', {}).items():
+            flat_schema.append({
+                "name": f"{body_part}_{segment_key}_{axis}",
+                "type": "number",
+                "min": bounds["min"],
+                "max": bounds["max"]
+            })
+
+    output_file = os.path.join(output_dir, f"{worker}_{body_part}_sim.json")
+    with open(output_file, 'w') as f:
+        json.dump(flat_schema, f, indent=2)
+
+    print(f"Saved: {output_file}")
