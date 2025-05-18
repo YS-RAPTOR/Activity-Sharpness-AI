@@ -1,8 +1,10 @@
 import pickle
+import time
 import numpy as np
 import pandas as pd
-from sklearn.feature_selection import SelectKBest
+from pathlib import Path
 from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier
+from sklearn.feature_selection import SelectKBest
 from sklearn.svm import SVC
 from sklearn.linear_model import SGDClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -16,8 +18,39 @@ df = pd.read_csv(DATA)
 # NOTE: Change if you want to train on another target
 target = "Activity"
 
-SELECTED_FEATURES = None
-NUMBER_OF_SELECTED_FEATURES = 10
+SELECTED_FEATURES = [
+    "SV L5 x",
+    "SV L5 y",
+    "SV L5 z",
+    "SV T8 x",
+    "SV Neck x",
+    "SV Neck y",
+    "SV Right Upper Arm x",
+    "SV Right Forearm y",
+    "SV Right Forearm z",
+    "SV Right Hand y",
+    "SV Right Hand z",
+    "SV Left Upper Arm x",
+    "SV Left Forearm x",
+    "SV Left Forearm y",
+    "SV Left Forearm z",
+    "SV Left Hand x",
+    "SV Left Hand y",
+    "SV Left Hand z",
+    "SV Right Upper Leg x",
+    "SV Right Upper Leg y",
+    "SV Right Lower Leg x",
+    "SV Left Upper Leg x",
+    "SV Left Upper Leg y",
+    "SV Left Lower Leg x",
+    "SV Left Foot x",
+    "SA Left Shoulder z",
+    "SA Right Upper Leg z",
+    "SA Right Lower Leg z",
+    "SA Left Upper Leg z",
+    "SA Left Lower Leg z",
+]
+NUMBER_OF_SELECTED_FEATURES = 30
 
 drop_list = [
     # Number of occurrences are the same
@@ -83,16 +116,17 @@ drop_list = [
 for drop in drop_list:
     if drop == target:
         continue
-    df.drop(drop, axis=1, inplace=True)
+    df.drop(columns=drop, inplace=True)
 
 features = (
     [i for i in df.columns if i != target]
     if SELECTED_FEATURES is None
     else SELECTED_FEATURES
 )
+features = [f for f in features if "SA " in f or "SV " in f]
 
+X, y = df[features], df[target].astype("category")
 
-X, y = df[features], df[target]
 # Feature Selection
 if SELECTED_FEATURES is None:
     selector = SelectKBest(k=NUMBER_OF_SELECTED_FEATURES)
@@ -109,6 +143,7 @@ if SELECTED_FEATURES is None:
             selected_features.append(feature)
 
     SELECTED_FEATURES = selected_features
+    features = selected_features
     print("Selected Features:")
     for feature in selected_features:
         print(feature)
@@ -123,13 +158,22 @@ class_weights = dict(
     )
 )
 
+hist_classes = np.unique(y.cat.codes)
+hist_class_weights = dict(
+    zip(
+        hist_classes,
+        class_weight.compute_class_weight(
+            class_weight="balanced", classes=hist_classes, y=y.cat.codes
+        ),
+    )
+)
+
 # Model Training and Evaluation
 models = [
-    SVC(class_weight=class_weights),
-    SGDClassifier(class_weight=class_weights),
-    RandomForestClassifier(class_weight=class_weights),
     DecisionTreeClassifier(class_weight=class_weights),
-    HistGradientBoostingClassifier(class_weight=class_weights),
+    HistGradientBoostingClassifier(class_weight=hist_class_weights),
+    SGDClassifier(class_weight=class_weights, n_jobs=-1),
+    RandomForestClassifier(class_weight=class_weights, n_jobs=-1),
 ]
 
 
@@ -138,22 +182,31 @@ x_train, x_test, y_train, y_test = train_test_split(
 )
 
 for model in models:
+    if model.__class__.__name__ == "HistGradientBoostingClassifier":
+        y_tr = y_train.cat.codes
+        y_te = y_test.cat.codes
+    else:
+        y_tr = y_train
+        y_te = y_test
+
+    start_time = time.time()
     print(f"Training {model.__class__.__name__}...")
-    model.fit(x_train, y_train)
+    model.fit(x_train, y_tr)
     y_pred = model.predict(x_test)
 
     print("Classification Report:")
-    print(classification_report(y_test, y_pred, zero_division=0))  # type: ignore
+    print(classification_report(y_te, y_pred, zero_division=0))  # type: ignore
     print()
 
     print("Confusion Matrix:")
-    print(confusion_matrix(y_test, y_pred))
+    print(confusion_matrix(y_te, y_pred))
     print()
 
-    print("*" * 80)
-    print()
-
-# Save the model
-for model in models:
-    with open(f"./Model/model_{model.__class__.__name__}.pkl", "wb") as f:
+    # Save the model
+    with open(f"./models/Models/model_{model.__class__.__name__}.pkl", "wb") as f:
         pickle.dump(model, f)
+
+    print(f"Model {model.__class__.__name__} saved.")
+    print(f"Time taken: {time.time() - start_time:.2f} seconds")
+    print()
+    print("*" * 80)

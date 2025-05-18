@@ -65,7 +65,7 @@ drop_list = [
     "SA Neck z",
 ]
 
-ANALYSIS = False
+ANALYSIS = True
 EDA = False
 
 df = pd.read_csv(DATA)
