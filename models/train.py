@@ -203,7 +203,9 @@ for model in models:
     print()
 
     # Save the model
-    with open(f"./models/Models/model_{model.__class__.__name__}.pkl", "wb") as f:
+    with open(
+        f"./models/Models_{target}/model_{model.__class__.__name__}.pkl", "wb"
+    ) as f:
         pickle.dump(model, f)
 
     print(f"Model {model.__class__.__name__} saved.")

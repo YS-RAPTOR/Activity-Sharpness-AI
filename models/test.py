@@ -57,7 +57,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 
 for model_name in models:
     model = None
-    with open(f"./models/Models/model_{model_name}.pkl", "rb") as f:
+    with open(f"./models/Models_{target}/model_{model_name}.pkl", "rb") as f:
         model = pickle.load(f)
 
     if model.__class__.__name__ == "HistGradientBoostingClassifier":
