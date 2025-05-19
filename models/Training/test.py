@@ -1,8 +1,8 @@
 import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report
-from ..data import DATA
-from ..common import load_dataset
+from data import DATA
+from common import load_dataset
 
 
 target = "Activity"

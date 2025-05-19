@@ -8,8 +8,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.utils import class_weight
-from ..data import DATA
-from ..common import load_dataset
+from data import DATA
+from common import load_dataset
 
 target = "Activity"
 SELECTED_FEATURES = [
