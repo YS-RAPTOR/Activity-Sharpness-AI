@@ -6,7 +6,7 @@ import numpy as np
 from common import load_dataset
 from data import DATA
 from sklearn.utils import class_weight
-import os
+import pickle
 
 
 # Load dataset (replace with your own if needed)
@@ -28,7 +28,8 @@ SELECTED_FEATURES = [
     "SV Left Lower Leg x",
     "SV Left Foot x",
 ]
-X, y = load_dataset(DATA, "Activity", SELECTED_FEATURES)
+target = "Activity"
+X, y = load_dataset(DATA, target, SELECTED_FEATURES)
 
 # Split into train/test
 X_train, X_test, y_train, y_test = train_test_split(
@@ -66,7 +67,6 @@ def objective(trial):
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
     score = f1_score(y_test, y_pred, average="macro")
-    print(f"{trial} Finished")
     return score
 
 
@@ -80,7 +80,9 @@ study = optuna.create_study(
     storage=storage_name,
     load_if_exists=True,
 )
-study.optimize(objective, n_trials=100)
+
+NO_OF_TRIALS = 1
+study.optimize(objective, n_trials=NO_OF_TRIALS)
 
 # Output the best parameters and retrain
 print("Best trial:")
@@ -91,8 +93,15 @@ for key, value in study.best_trial.params.items():
 
 # Retrain with best params on the full training data
 best_model = RandomForestClassifier(
-    **study.best_trial.params, random_state=42, n_jobs=-1
+    **study.best_trial.params, class_weight=class_weights, random_state=42, n_jobs=-1
 )
 best_model.fit(X_train, y_train)
-test_acc = accuracy_score(y_test, best_model.predict(X_test))
+
+y_pred = best_model.predict(X_test)
+test_acc = accuracy_score(y_test, y_pred)
+test_f1 = f1_score(y_test, y_pred, average="macro")
 print(f"\nTest Accuracy: {test_acc:.4f}")
+print(f"Test F1 Score: {test_f1:.4f}")
+
+with open(f"./models/Models_{target}/best.pkl", "wb") as f:
+    pickle.dump(best_model, f)
