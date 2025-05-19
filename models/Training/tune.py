@@ -1,12 +1,13 @@
 import optuna
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, f1_score
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score
 import numpy as np
 from common import load_dataset
 from data import DATA
 from sklearn.utils import class_weight
+import os
+
 
 # Load dataset (replace with your own if needed)
 SELECTED_FEATURES = [
@@ -61,17 +62,25 @@ def objective(trial):
         "class_weight": class_weights,
     }
 
-    model = RandomForestClassifier(**params, random_state=42)
+    model = RandomForestClassifier(**params, random_state=42, n_jobs=-1)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
     score = f1_score(y_test, y_pred, average="macro")
-    print("Finished")
+    print(f"{trial} Finished")
     return score
 
 
 # Create Optuna study
-study = optuna.create_study(direction="maximize")
-study.optimize(objective, n_trials=50)
+storage_name = "sqlite:///optuna_random_forest_study_activity.db"
+study_name = "rf_activity_study"
+
+study = optuna.create_study(
+    study_name=study_name,
+    direction="maximize",
+    storage=storage_name,
+    load_if_exists=True,
+)
+study.optimize(objective, n_trials=100)
 
 # Output the best parameters and retrain
 print("Best trial:")
