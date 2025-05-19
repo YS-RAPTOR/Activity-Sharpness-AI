@@ -44,6 +44,12 @@ def read_data(
     knife_sharpness: str,
     shift_number: str,
 ):
+    sharpness = "Blunt"
+    if int(knife_sharpness) >= 85:
+        sharpness = "Sharp"
+    elif int(knife_sharpness) >= 70:
+        sharpness = "Medium"
+
     creation = pd.DataFrame()
     for i, (sheet, front) in enumerate(sheets.items()):
         print(f"Reading {sheet} from {file}")
@@ -58,7 +64,7 @@ def read_data(
             creation["Activity"] = df[label].apply(lambda x: activity[job][int(x)])  # type: ignore
             creation["Worker"] = worker
             creation["Job"] = job
-            creation["Knife Sharpness"] = knife_sharpness
+            creation["Knife Sharpness"] = sharpness
             creation["Shift Number"] = shift_number
 
         headers = [h for h in df.columns if h not in ["Frame", label]]  # type: ignore
