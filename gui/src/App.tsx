@@ -31,21 +31,7 @@ function App() {
         try {
             const res = await fetch("http://localhost:8000/workers");
             const workerList = await res.json();
-
-            const fullData = await Promise.all(
-                workerList.map(async (worker: { id: number; name: string }) => {
-                    const res = await fetch(`http://localhost:8000/worker/${worker.id}`);
-                    const activityData = await res.json();
-                    return {
-                        id: worker.id,
-                        name: worker.name,
-                        current_activity: activityData.activity as ActivityTypes,
-                        should_sharpen: activityData.should_sharpen,
-                    };
-                })
-            );
-
-            setWorkers(fullData);
+            setWorkers(workerList);
         } catch (err) {
             console.error("Failed to load workers:", err);
         }

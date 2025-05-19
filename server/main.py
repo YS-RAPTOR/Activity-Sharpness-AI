@@ -77,13 +77,8 @@ def should_sharpen(data) -> bool:
 
 @app.get("/workers")
 def get_workers():
-    return [{"id": worker.id, "name": worker.name} for worker in workers]
-
-
-@app.get("/worker/{worker_id}")
-def get_worker(worker_id: int):
+    results = []
     for worker in workers:
-        if worker.id == worker_id:
-            data = worker.get_data()
-            return {"activity": predict_activity(data), "should_sharpen": should_sharpen(data)}
-    return None
+        data = worker.get_data()
+        results.append({"id": worker.id, "name": worker.name, "activity": predict_activity(data), "should_sharpen": should_sharpen(data)})
+    return results
