@@ -69,7 +69,7 @@ const Worker = (props: {
 }) => {
     return (
         <div className="border-2 border-slate-950 rounded-2xl p-3">
-            <div className="relative rounded-full w-28 aspect-square bg-amber-300 border-2 border-slate-900">
+            <div className="relative rounded-full mx-auto mb-2 w-28 aspect-square bg-neutral-200 border-2 border-slate-900">
                 <div className="w-full h-full flex items-center justify-center">
                     <svg
                         className="w-4/5 h-4/5"
@@ -81,7 +81,7 @@ const Worker = (props: {
                     </svg>
                 </div>
                 <div
-                    className={`absolute bottom-2 right-2 w-5 h-5 rounded-full border-2 border-slate-900 ${
+                    className={`absolute bottom-2 right-2 w-4 h-4 rounded-full border-2 border-slate-900 ${
                         props.is_working ? "bg-green-600" : "bg-red-600"
                     }`}
                 ></div>

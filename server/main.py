@@ -3,6 +3,7 @@ from typing import Literal, Tuple
 import time
 import random
 import joblib
+import pandas as pd
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -16,8 +17,8 @@ def get_model(path):
     return model
 
 
+Knife_Sharpness_Model = get_model("./models/Models_Knife Sharpness/model_best.pkl")
 Activity_Model = get_model("./models/Models_Activity/model_best.pkl")
-Kinfe_Sharpness_Model = get_model("./models/Models_Knife Sharpness/model_best.pkl")
 STEPS_PER_SECOND = 10
 
 
@@ -65,7 +66,7 @@ class Sensor:
 
 
 app = FastAPI()
-origins = ["http://localhost:8001"]
+origins = ["http://127.0.0.1:8001"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -95,8 +96,8 @@ workers = [Worker(1, "John"), Worker(2, "Jane"), Worker(3, "Doe")]
 def predict_activity(
     data,
 ) -> Literal[
-    "Cutting",
     "Idle",
+    "Cutting",
     "Slicing",
     "Steeling",
     "Dropping",
@@ -106,15 +107,13 @@ def predict_activity(
     "Placing/ Manipulating",
     "Pulling",
 ]:
-    prediction = Activity_Model.predict(data)
-    print(prediction)
-    return prediction
+    prediction = Activity_Model.predict(pd.DataFrame([data]))
+    return prediction[0]
 
 
 def should_sharpen(data) -> bool:
-    prediction = Kinfe_Sharpness_Model.predict(data)
-    print(prediction)
-    return prediction == "Blunt"
+    prediction = Knife_Sharpness_Model.predict(pd.DataFrame([data]))
+    return prediction[0] == "Blunt"
 
 
 def get_filtered_data(
@@ -123,11 +122,11 @@ def get_filtered_data(
     sharpen_data = {}
     activity_data = {}
 
-    for key, value in data.items():
-        if key in selected_features.Kinfe_Sharpness:
-            sharpen_data[key] = value
-        if key in selected_features.Activity:
-            activity_data[key] = value
+    for key in selected_features.Knife_Sharpness:
+        sharpen_data[key] = data[key]
+
+    for key in selected_features.Activity:
+        activity_data[key] = data[key]
 
     return sharpen_data, activity_data
 
@@ -142,8 +141,8 @@ def get_workers():
             {
                 "id": worker.id,
                 "name": worker.name,
-                "activity": predict_activity(sharpen_data),
-                "should_sharpen": should_sharpen(activity_data),
+                "current_activity": predict_activity(activity_data),
+                "should_sharpen": should_sharpen(sharpen_data),
             }
         )
     return results

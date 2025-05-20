@@ -18,7 +18,7 @@ Activity = [
 ]
 
 
-Kinfe_Sharpness = [
+Knife_Sharpness = [
     "SV L5 x",
     "SV L5 y",
     "SV L5 z",
@@ -104,4 +104,3 @@ Kinfe_Sharpness = [
     "SA Left Foot y",
     "SA Left Foot z",
 ]
-
