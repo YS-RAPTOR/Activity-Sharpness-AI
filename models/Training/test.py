@@ -31,6 +31,7 @@ models = [
     "DecisionTreeClassifier",
     "SGDClassifier",
     "HistGradientBoostingClassifier",
+    "best",
 ]
 
 

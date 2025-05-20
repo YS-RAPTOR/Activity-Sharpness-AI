@@ -103,5 +103,5 @@ test_f1 = f1_score(y_test, y_pred, average="macro")
 print(f"\nTest Accuracy: {test_acc:.4f}")
 print(f"Test F1 Score: {test_f1:.4f}")
 
-with open(f"./models/Models_{target}/best.pkl", "wb") as f:
+with open(f"./models/Models_{target}/model_best.pkl", "wb") as f:
     pickle.dump(best_model, f)
