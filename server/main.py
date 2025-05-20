@@ -1,19 +1,23 @@
-from fastapi import FastAPI
+from typing import Literal, Tuple
+
 import time
 import random
+import joblib
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from sensor_data import SENSOR_DATA
-from typing import Literal, Tuple
-import selected_features
-import pickle
+import selected_features as selected_features
 
 
 def get_model(path):
     with open(path, "rb") as f:
-        return pickle.load(f)
+        model = joblib.load(f)
+    return model
 
 
 Activity_Model = get_model("./models/Models_Activity/model_best.pkl")
-Kinfe_Sharpness_Model = get_model("./models/Models_Kinfe Sharpness/model_best.pkl")
+Kinfe_Sharpness_Model = get_model("./models/Models_Knife Sharpness/model_best.pkl")
 STEPS_PER_SECOND = 10
 
 
@@ -61,6 +65,14 @@ class Sensor:
 
 
 app = FastAPI()
+origins = ["http://localhost:8001"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class Worker:

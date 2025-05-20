@@ -86,12 +86,22 @@ const Worker = (props: {
                     }`}
                 ></div>
             </div>
-            <div><strong>ID:</strong> {props.id}</div>
-            <div><strong>Name:</strong> {props.name}</div>
-            <div><strong>Current Activity:</strong> {props.current_activity}</div>
-            <div><strong>Should Sharpen:</strong> {props.should_sharpen ? "Yes" : "No"}</div>
+            <div>
+                <strong>ID:</strong> {props.id}
+            </div>
+            <div>
+                <strong>Name:</strong> {props.name}
+            </div>
+            <div>
+                <strong>Current Activity:</strong> {props.current_activity}
+            </div>
+            <div>
+                <strong>Should Sharpen:</strong>{" "}
+                {props.should_sharpen ? "Yes" : "No"}
+            </div>
         </div>
     );
 };
 
 export default App;
+
