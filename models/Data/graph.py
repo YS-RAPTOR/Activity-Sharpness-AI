@@ -7,7 +7,6 @@ from scipy.stats import linregress
 IS_HORIZONTAL = True
 
 df = pd.read_csv(DATA)
-df = df.sample(n=10000).reset_index(drop=True)
 
 Graphs = {
     "SV L5 x": ["SV L3 x", "SV T12 x"],
