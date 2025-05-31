@@ -5,12 +5,12 @@
 - Clone the project and open the directory.
 
 ```bash
-git clone https://github.com/YS-RAPTOR/COS40007.git
-cd COS40007
+git clone https://github.com/YS-RAPTOR/Activity-Sharpness-AI.git
+cd Activity-Sharpness-AI
 ```
 
 - Install [uv](https://docs.astral.sh/uv/getting-started/installation/), [node](https://nodejs.org/en/download) and [pnpm](https://pnpm.io/installation).
-- Download the [folder](https://liveswinburneeduau-my.sharepoint.com/:f:/g/personal/102838834_student_swin_edu_au/EnoGDAtkr0VGhiQt4whRIokBpXRMTgVa1dtEWviIOPwfLA?e=oaaTEq) linked and extract the folder's content to the models folder. The directory structure after this operation should look like structure below.
+- Download the [folder](https://liveswinburneeduau-my.sharepoint.com/:f:/g/personal/102838834_student_swin_edu_au/EnoGDAtkr0VGhiQt4whRIokBpXRMTgVa1dtEWviIOPwfLA?e=oaaTEq) linked and extract the folder's content to the models folder. The directory structure after this operation should look like the structure below.
 ```
 .
 |— models
